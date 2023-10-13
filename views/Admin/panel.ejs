@@ -1,0 +1,97 @@
+<%- include('../Includes/begin.ejs') %>
+
+<link rel="stylesheet" href="../CSS/admin-dashboard.css">
+<link rel="stylesheet" href="../../public/CSS/panel.css">
+<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+<div class="container-fluid" style="background-color:black"></div>
+
+
+      
+
+        <section id="content-wrapper">
+            <main role="main" class="pt-5 main">
+                <div class="header pb-4 pb-sm-8 pt-5 pt-lg-4 d-flex align-items-center"
+                    style="max-height: 100px; background-size: cover; background-position: center top; justify-content: center; margin-bottom: 50px;">
+                    <h1 style="font-size: 45px;">CLASSROOM  CONTROL PANEL</h1>
+                </div>
+               
+                
+
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="card mb-5" style="box-shadow: 0 0 20px 8px #d0d0d0; border-radius: 20px; overflow: hidden;">
+                            <img height="250" class="card-img-top" style="object-fit: cover;"
+                                src="/images/start.jpg"
+                                alt="image">
+                            <div class="card-body">
+                                <h4>
+                                    Activates Classroom
+                                
+                                  </h4>
+                                  <br>
+                                
+                            </div>
+                            <div class="card-footer">
+                                <div class="btn-wrapper text-center d-flex justify-content-center btn-successs"
+                                    style="color: #fff;">
+                                    <a href="/Admin/start"><button class="btn-successs"> START CLASS</button></a>
+                                  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="card mb-5" style="box-shadow: 0 0 20px 8px #d0d0d0; border-radius: 20px; overflow: hidden;">
+                            <img height="250" class="card-img-top" style="object-fit: cover;"
+                                src="/images/end.jpg"
+                                alt="image">
+                            <div class="card-body">
+                                <h4>
+                                    Locks the room, turned off the lights but leave the aircondition unit turned on.
+                                  </h4>
+
+                            </div>
+                            <div class="card-footer">
+                                <div class="btn-wrapper text-center d-flex justify-content-center btn-successs"
+                                    style="color: #fff;">
+                                    <a href=""><button class="btn-successs" disabled> END CLASS</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="card mb-5" style="box-shadow: 0 0 20px 8px #d0d0d0; border-radius: 20px; overflow: hidden;">
+                            <img height="250" class="card-img-top" style="object-fit: cover;"
+                                src="/images/shutdown.jpg" alt="image">
+                            <div class="card-body">
+                                <h4>
+                                   Shutdowns the whole Classroom
+                                   
+                                  </h4>
+                                  <br>
+                                
+                            </div>
+                            <div class="card-footer">
+                                <div class="btn-successs"
+                                    style="color: #fff;">
+                                    <a href=""><button class="btn-successs" disabled> SHUTDOWN CLASSROOM</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </main>
+        </section>
+
+   
+
+
+
+</div>
+
+
+
+<%- include('../Includes/admin_end.ejs') %>
